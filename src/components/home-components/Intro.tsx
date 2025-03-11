@@ -38,7 +38,7 @@ export default function Intro() {
                 download="Ayan_Kumar_Das_Resume.pdf"
                 className="button-hover"
               >
-                <Button color="danger">
+                <Button className="button-hover">
                   <MdOutlineFileDownload />
                   Download Resume
                 </Button>
@@ -50,7 +50,7 @@ export default function Intro() {
               transition={{ duration: 0.75, delay: 0.75 }}
             >
               <Link href={"/projects"}>
-                <Button className="button-hover" color="danger">
+                <Button className="button-hover">
                   See Projects
                   <FaArrowRight />
                 </Button>
@@ -62,7 +62,7 @@ export default function Intro() {
               transition={{ duration: 0.75, delay: 1 }}
             >
               <Link href={"/contact"}>
-                <Button className="button-hover" color="danger">
+                <Button className="button-hover">
                   <MdContactPhone />
                   Contact
                 </Button>
