@@ -19,6 +19,7 @@ export default function FeaturedProjects() {
           next: { revalidate: 0 }
         });
         const data = await res.json();
+        data.data.reverse();
         setProjects(data.data.slice(0, 3));
       } catch (error) {
         console.error("Error fetching projects:", error);

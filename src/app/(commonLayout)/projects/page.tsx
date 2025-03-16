@@ -20,6 +20,7 @@ export const metadata = {
 
 export default async function ProjectsPage() {
   const projects = await getProjects();
+  projects.reverse();
 
   return (
     <div className="min-h-screen container mx-auto py-16">
