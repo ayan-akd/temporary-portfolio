@@ -20,6 +20,10 @@ import next from "@/assets/icons/next.svg";
 import lott from "@/assets/lottie.json";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import redux from "@/assets/icons/redux.svg";
+import typescript from "@/assets/icons/typescript.svg";
+import postgres from "@/assets/icons/postgres.svg";
+import postman from "@/assets/icons/postman.svg";
 
 const Lottie = dynamic(() => import("lottie-react"), {
   ssr: false, // This will disable server-side rendering for Lottie
@@ -32,9 +36,11 @@ const skills = [
       { name: "HTML", src: html },
       { name: "CSS", src: css },
       { name: "JavaScript", src: js },
-      { name: "Tailwind CSS", src: tailwind },
+      { name: "TypeScript", src: typescript },
       { name: "React.js", src: react },
+      { name: "Redux", src: redux },
       { name: "Next.js", src: next },
+      { name: "Tailwind CSS", src: tailwind },
     ],
   },
   {
@@ -54,6 +60,7 @@ const skills = [
       { name: "Netlify", src: netlify },
       { name: "Vercel", src: vercel },
       { name: "Git", src: git },
+      { name: "Postman", src: postman },
       { name: "VS Code", src: vscode },
     ],
   },
@@ -62,6 +69,7 @@ const skills = [
     skills: [
       { name: "MongoDB", src: mongodb },
       { name: "MySQL", src: mysql },
+      { name: "PostgreSQL", src: postgres },
     ],
   },
 ];

@@ -25,7 +25,7 @@ export default function Intro() {
             transition={{ duration: 0.75, delay: 0.25 }}
             className="text-4xl font-semibold mt-2"
           >
-            A Front-End Developer
+            A Full-Stack Developer
           </m.h3>
           <div className="flex md:justify-start flex-wrap justify-center items-center gap-1 my-5">
             <m.div
@@ -34,7 +34,8 @@ export default function Intro() {
               transition={{ duration: 0.75, delay: 0.5 }}
             >
               <a
-                href="https://drive.usercontent.google.com/download?id=1bS_XY8-sQIApl6hg1LVmMSatbI4OcNaM"
+                // href="https://drive.usercontent.google.com/download?id=1bS_XY8-sQIApl6hg1LVmMSatbI4OcNaM"
+                href="https://drive.usercontent.google.com/download?id=1wUrp6FGy6sliuezbQY2F42NuoGVTOCN8"
                 download="Ayan_Kumar_Das_Resume.pdf"
                 className="button-hover"
               >
